@@ -1,0 +1,27 @@
+/* Generated from tokens.json */
+:root {
+  --cream: #f7f1ea;
+  --lilac-mist: #e6ddf2;
+  --lavender: #b9a6d9;
+  --violet: #5b4690;
+  --plum: #3e2a4f;
+  --plum-muted: #6b5a7b;
+  --apricot: #e8a87c;
+  --hairline: #d9cde6;
+  --space-2: 8px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-10: 40px;
+  --radius-sm: 6px;
+  --radius-md: 16px;
+  --radius-pill: 999px;
+  --font-display: "Cormorant Garamond", "Cormorant", Georgia, serif;
+  --font-sans: "Manrope", "Helvetica Neue", Arial, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", serif;
+}
+.display { font-family: var(--font-display); font-size: 64px; line-height: 66px; font-weight: 400; }
+.h1 { font-family: var(--font-display); font-size: 40px; line-height: 46px; font-weight: 500; }
+.h2 { font-family: var(--font-display); font-size: 26px; line-height: 32px; font-weight: 500; }
+.body { font-family: var(--font-sans); font-size: 16px; line-height: 25px; font-weight: 400; }
+.small { font-family: var(--font-sans); font-size: 13px; line-height: 19px; font-weight: 500; }
+.label { font-family: var(--font-sans); font-size: 11px; line-height: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; }

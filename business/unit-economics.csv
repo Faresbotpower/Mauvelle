@@ -1,0 +1,25 @@
+Item,Value,Unit,Note
+Patches per box,6,,
+Patch cost incl. printed pouch,0.15,USD,ESTIMATE. Replace with supplier quote at your order size
+Box cost,0.6,USD,"ESTIMATE. Printed folding carton at about 1,000 MOQ"
+USD to AED,3.6725,,
+Freight and clearance per box,1.5,AED,ESTIMATE. Ask forwarder for DDP Dubai
+Customs duty rate,0.05,,Generally 5% of CIF. Confirm HS code
+Landed cost per box,=((B2*B3+B4)*B5+B6)*(1+B7),AED,
+Retail price per box incl. VAT,59,AED,PLACEHOLDER. Set after wear tests and competitor check
+VAT rate,0.05,,Set 0 if not VAT registered
+Net price per box ex VAT,=B9/(1+B10),AED,
+Payment fee rate,0.029,,Check your gateway
+Payment fixed fee per order,1,AED,Check your gateway
+"Pick, pack and delivery per order",15,AED,ESTIMATE. Get 3PL / courier quote
+Boxes per order,1.5,,Average basket
+"Mailer, card, sticker per order",3,AED,ESTIMATE
+Revenue per order ex VAT,=B11*B15,AED,
+Product cost per order,=B8*B15,AED,
+Payment fees per order,=B9*B15*B12+B13,AED,
+Fulfilment per order,=B14+B16,AED,
+Contribution per order before ads,=B17-B18-B19-B20,AED,
+Contribution margin,=B21/B17,,
+Max ad cost per order to break even,=B21,AED,Your CAC ceiling
+First batch size,600,boxes,
+Cash for first batch (landed),=B24*B8,AED,"Excludes samples, design, photography, license"
