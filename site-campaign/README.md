@@ -11,9 +11,10 @@ from `brand/`. GSAP and ScrollTrigger are bundled locally in `vendor/`.
 ## Interactions
 
 - Photorealistic lavender packaging hero with gentle scroll movement.
-- Six photographic scroll chapters, with direct chapter buttons and crossfades.
+- Six photographic scroll chapters, with direct chapter buttons and directional image reveals.
 - Photorealistic five-layer patch concept image.
-- Three selectable wearing-ritual photographs: open, place, and settle in.
+- Three selectable wearing-ritual photographs, with previous/next controls and horizontal swipe support.
+- An editorial portrait and floating tote photograph, scroll-linked typography, and navigation progress.
 - Responsive menu, native FAQ disclosures, keyboard focus and reduced-motion styles.
 - Local waitlist with email validation, duplicate handling, pending and error states.
 
@@ -36,17 +37,29 @@ Six new product images replace every CSS-drawn box, sachet and patch. They were
 created with the built-in image-generation tool using the supplied packaging and
 logo references. Like the Nashat reference site, these are photorealistic concept
 images, not camera photographs of manufactured samples. The existing sunlit
-lifestyle image remains in use.
+lifestyle image of a woman holding a cup has been removed from every campaign placement.
 
 Optimized website files in `assets/`:
 
-- `product-hero.webp`: box, sachet and patch still life; hero, first chapter, signup.
-- `sachet-opening.webp`: hands opening the sachet; second chapter and ritual.
+- `product-hero.webp`: box, sachet and patch still life; hero only.
+- `unboxed.webp`: open box; first chapter.
+- `sachet-opening.webp`: hands opening the sachet; second chapter only.
 - `patch-texture.webp`: fabric detail; third chapter.
 - `patch-layers.webp`: five-layer material concept; fourth chapter.
 - `patch-peel.webp`: hands peeling the liner; fifth chapter.
 - `patch-placement.webp`: patch over opaque clothing; placement ritual.
-- `quiet-moment.webp`: existing lifestyle image; editorial and final ritual.
+- `morning-stretch.jpg`: sixth chapter.
+- `courtyard-walk.jpg`: editorial portrait.
+- `on-the-go.jpg`: editorial tote inset.
+- `opening-ritual.jpg`: first ritual step.
+- `your-day.jpg`: final ritual step.
+- `vanity-still-life.jpg`: launch section.
+
+The seven replacement/additional photographs were selected from the existing
+`site-v2/assets/` library, with originals retained under `assets-source/`. No new
+image generation was needed for this refresh. Each of the 13 campaign images has
+exactly one placement. The image-uniqueness test also checks file hashes to catch
+renamed duplicates. Repeated brand marks are intentionally retained.
 
 Full-resolution product PNGs are preserved in `references/product-originals/`.
 Exact prompts, input references, generation method and source paths are recorded

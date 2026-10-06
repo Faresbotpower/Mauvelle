@@ -12,6 +12,12 @@ npm run dev
 
 Open http://localhost:4173. The server serves `site-campaign/` by default. Run `npm test` to verify static delivery and the signup endpoint.
 
+## Deploy
+
+`npm run build` creates `dist/`, containing only the public website, its 13 unique photographs, fonts, and logos. `vercel.json` selects static hosting explicitly, avoiding Vercel's automatic detection of the local `server.mjs` as a production function. Connect the repository to Vercel and deploy from its root.
+
+The deployed site shows launch details instead of the local signup form. Connect a persistent email service before enabling production signups; the preview's local file storage is not suitable for Vercel functions.
+
 Signup entries stay in `.local-data/waitlist.jsonl`, which is excluded from Git. No email service is connected. Product visuals are photorealistic concept images; full-resolution originals and prompts are included in `site-campaign/references/`.
 
 ## Project files
