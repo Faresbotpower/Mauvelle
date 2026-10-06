@@ -1,0 +1,26 @@
+[
+  {
+    "name": "opening-ritual-branded",
+    "prompt": "Edit ONLY the packaging print on the FIRST supplied photograph. Preserve the original scene, camera framing, hands, lighting, background, objects, colors and textures. The second image is the exact Mauvelle crescent + lowercase wordmark artwork, and the third image is the established packaging style reference. Reproduce that crescent and wordmark faithfully, not a substitute font or invented mark. Print should be dark plum #3E2A4F ink, realistically integrated into the lavender surface with perspective, folds, material grain and light. This is an image edit, not a new composition. No badges, duration promises, medical claims, extra objects, borders or watermarks. Output a landscape photograph at the original 3:2 aspect ratio. On the blank front of the held lavender sachet, add the supplied small crescent above the supplied lowercase 'mauvelle' wordmark, centered on the clear front panel. Below the wordmark add the small elegant line '1 heat patch'. Keep all print inside the crimp seams and clear of the fingers. Respect the tilt of the sachet. Leave the torn strip unprinted. Preserve every hand and nail precisely.",
+    "referenceImages": [
+      "site-campaign/assets/opening-ritual.jpg",
+      "brand/logo/png/lockup-stacked-plum.png",
+      "site-campaign/assets/product-hero.webp"
+    ],
+    "original": "references/product-originals/opening-ritual-branded.png",
+    "asset": "assets/opening-ritual-branded.webp",
+    "method": "Built-in image_gen edit; photorealistic packaging concept"
+  },
+  {
+    "name": "vanity-still-life-branded",
+    "prompt": "Edit ONLY the packaging print on the FIRST supplied photograph. Preserve the original scene, camera framing, hands, lighting, background, objects, colors and textures. The second image is the exact Mauvelle crescent + lowercase wordmark artwork, and the third image is the established packaging style reference. Reproduce that crescent and wordmark faithfully, not a substitute font or invented mark. Print should be dark plum #3E2A4F ink, realistically integrated into the lavender surface with perspective, folds, material grain and light. This is an image edit, not a new composition. No badges, duration promises, medical claims, extra objects, borders or watermarks. Output a landscape photograph at the original 3:2 aspect ratio. Add a finished label design to ALL THREE lavender packages: the upright large box and BOTH sachets in front of it. Box front: small spaced text 'SOOTHING HEAT PATCHES' near top, supplied crescent and lowercase 'mauvelle' wordmark centered prominently, and below it the small italic tagline 'Soothing warmth, beautifully kept.' Sachet fronts: supplied crescent above lowercase 'mauvelle' wordmark, with small '1 heat patch' near the lower edge. The front right sachet has a fully legible logo, the rear sachet's label is naturally partially occluded by the front sachet. Keep text safely within each package face. Keep perfume and cosmetic bottles unbranded, unchanged. All package printing must align correctly with the perspective of its own package.",
+    "referenceImages": [
+      "site-campaign/assets/vanity-still-life.jpg",
+      "brand/logo/png/lockup-stacked-plum.png",
+      "site-campaign/assets/product-hero.webp"
+    ],
+    "original": "references/product-originals/vanity-still-life-branded.png",
+    "asset": "assets/vanity-still-life-branded.webp",
+    "method": "Built-in image_gen edit; photorealistic packaging concept"
+  }
+]

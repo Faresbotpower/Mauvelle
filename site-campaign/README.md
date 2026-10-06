@@ -51,9 +51,9 @@ Optimized website files in `assets/`:
 - `morning-stretch.jpg`: sixth chapter.
 - `courtyard-walk.jpg`: editorial portrait.
 - `on-the-go.jpg`: editorial tote inset.
-- `opening-ritual.jpg`: first ritual step.
+- `opening-ritual-branded.webp`: first ritual step.
 - `your-day.jpg`: final ritual step.
-- `vanity-still-life.jpg`: launch section.
+- `vanity-still-life-branded.webp`: launch section.
 
 The seven replacement/additional photographs were selected from the existing
 `site-v2/assets/` library, with originals retained under `assets-source/`. No new
@@ -70,3 +70,9 @@ The photographic update was checked on desktop and at 390px mobile. All six chap
 buttons select their matching photo and caption; the placement control displays
 the wearing image. Browser checks found no failed images, horizontal overflow,
 or current site JavaScript errors. The local server tests remain unchanged.
+
+The opening-ritual and vanity photographs were subsequently edited with the
+built-in image tool to apply the supplied Mauvelle crescent and wordmark, plus
+matching product labels. Edit prompts and references are in
+`references/branding-edits.json`; full-resolution edits are preserved in
+`references/product-originals/`. Original scenes remain archived.
