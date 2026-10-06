@@ -42,16 +42,16 @@ lifestyle image of a woman holding a cup has been removed from every campaign pl
 Optimized website files in `assets/`:
 
 - `product-hero.webp`: box, sachet and patch still life; hero only.
-- `unboxed.webp`: open box; first chapter.
-- `sachet-opening.webp`: hands opening the sachet; second chapter only.
+- `unboxed-heat-patches.webp`: open box; first chapter.
+- `sachet-opening-consistent.webp`: hands opening the sachet; second chapter only.
 - `patch-texture.webp`: fabric detail; third chapter.
 - `patch-layers.webp`: five-layer material concept; fourth chapter.
 - `patch-peel.webp`: hands peeling the liner; fifth chapter.
-- `patch-placement.webp`: patch over opaque clothing; placement ritual.
+- `patch-placement-consistent.webp`: patch over opaque clothing; placement ritual.
 - `morning-stretch.jpg`: sixth chapter.
 - `courtyard-walk.jpg`: editorial portrait.
 - `on-the-go-branded.webp`: editorial tote inset.
-- `opening-ritual-branded.webp`: first ritual step.
+- `opening-ritual-consistent.webp`: first ritual step.
 - `your-day.jpg`: final ritual step.
 - `vanity-still-life-branded.webp`: launch section.
 
@@ -79,3 +79,17 @@ matching product labels. Edit prompts and references are in
 
 The tote inset also uses the branded sachet edit. Its prompt and source references
 are recorded in `references/tote-branding-edit.json`.
+
+## Image proportions audit
+
+All 13 displayed assets are inventoried in `references/image-dimensions.json`.
+HTML image dimensions match their source files; the anatomy SVG intentionally
+uses a square coordinate system with the same aspect ratio. Product chapter
+images fit fully inside their frames. Lifestyle photography retains deliberate
+editorial crops without stretching.
+
+The open carton now holds broad flat pouches, with a rectangular quilted pad
+visible beside it. The wearing pad and both pouch-opening scenes were corrected to match
+the other product references. The 95:130 patch proportion comes from the
+provisional supplier specification; these remain concept images, not verified
+manufacturing dimensions. Prompts are in `references/proportion-edits.json`.

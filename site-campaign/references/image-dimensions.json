@@ -1,0 +1,68 @@
+[
+  {
+    "asset": "assets/product-hero.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/unboxed-heat-patches.webp",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "asset": "assets/sachet-opening-consistent.webp",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "asset": "assets/patch-texture.webp",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "asset": "assets/patch-peel.webp",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "asset": "assets/morning-stretch.jpg",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/courtyard-walk.jpg",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/on-the-go-branded.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/opening-ritual-consistent.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/patch-placement-consistent.webp",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "asset": "assets/your-day.jpg",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/vanity-still-life-branded.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/patch-layers.webp",
+    "width": 1254,
+    "height": 1254,
+    "display": "SVG 1000x1000 viewBox; square aspect preserved"
+  }
+]

@@ -175,3 +175,22 @@
   .editorial-inset{transform:rotate(-4deg)}
   .manifesto-line{opacity:1!important;transform:none!important}
 }
+
+/* Preserve complete product compositions and their intrinsic proportions. */
+.story-photo[data-photo="0"]>img,
+.story-photo[data-photo="1"]>img,
+.story-photo[data-photo="2"]>img,
+.story-photo[data-photo="4"]>img{
+  object-fit:contain;object-position:center;
+  padding:16px 16px 62px;transform:none;filter:none;
+}
+.story-photo[data-photo="0"],.story-photo[data-photo="1"],
+.story-photo[data-photo="2"],.story-photo[data-photo="4"]{background:var(--lilac-mist)}
+.story-photo[data-photo="0"]:after,.story-photo[data-photo="1"]:after,
+.story-photo[data-photo="2"]:after,.story-photo[data-photo="4"]:after{display:none}
+.story-photo[data-photo="0"] figcaption,.story-photo[data-photo="1"] figcaption,
+.story-photo[data-photo="2"] figcaption,.story-photo[data-photo="4"] figcaption{color:var(--plum)}
+@media(max-width:760px){
+  .story-photo[data-photo="0"]>img,.story-photo[data-photo="1"]>img,
+  .story-photo[data-photo="2"]>img,.story-photo[data-photo="4"]>img{padding:8px 8px 45px}
+}

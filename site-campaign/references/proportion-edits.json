@@ -1,0 +1,51 @@
+[
+  {
+    "name": "unboxed-heat-patches",
+    "prompt": "Create a NEW photorealistic Mauvelle product photograph for the unboxing chapter of a luxury heat-patch website. Use reference 1 ONLY for the established lavender packaging style and exact branding, reference 2 for the correct ivory heat-patch appearance, reference 3 for the exact crescent and lowercase mauvelle wordmark. New composition, not a duplicate of reference 1. The key correction: these are LARGE, FLAT, BROAD individually wrapped HEAT PADS, not electrolyte powder sticks. Show a shallow, wide rectangular matte lavender cardboard carton with its hinged lid open, viewed from a three-quarter overhead angle. Inside, broad flat lavender foil pouches lie neatly FACE-UP, stacked horizontally like individually wrapped sheet masks; the top pouch is fully visible face-on, about 13cm by 11cm, nearly square and only a few millimeters thick. The carton footprint fits these broad pouches snugly; low side walls, NOT a tall upright display box. A second broad sealed pouch rests partly outside the box, and ONE unwrapped ivory fabric heat pad sits prominently in the foreground, exactly like reference 2: thin wide rounded rectangle, soft nonwoven fibers, 3 by 4 shallow quilted cells, no wings, no medical markings. Its width should clearly match the broad pouch that contains it. DO NOT include narrow vertical tubes, stick packs, powder sachets, bottles, sanitary pads or curled rolls. Print the supplied plum crescent and lowercase mauvelle wordmark on carton front and visible foil pouch fronts; pouch small label '1 heat patch'; box small label 'SOOTHING HEAT PATCHES'. No apricot dot, no duration, count or medical claims. Quiet soft lavender seamless tabletop and background #E6DDF2, soft directional window light, convincing soft shadows, fine paper and foil textures, upscale real product photography. SQUARE 1024x1024 composition; all box edges, the entire open lid, all pouches and the heat pad fully visible with comfortable margins. Products occupy about 80 percent of the frame. No hands, no UI, no watermarks.",
+    "referenceImages": [
+      "site-campaign/assets/product-hero.webp",
+      "site-campaign/assets/patch-texture.webp",
+      "brand/logo/png/lockup-stacked-plum.png"
+    ],
+    "method": "Built-in image_gen; visual proportions follow the provisional 95:130 product reference, not verified manufactured dimensions"
+  },
+  {
+    "name": "unboxed-heat-patches",
+    "prompt": "Refine FIRST photo to make heat pad geometry consistent with SECOND photo. Preserve the branded open box, wide flat foil pouches, lavender palette, all correct printed logos and realistic photography. Change only the ivory heat pad in foreground: it must be a clearly elongated rounded rectangle with width-to-length ratio 95:130, containing exactly THREE columns by FOUR rows of shallow quilted cells when oriented portrait (twelve cells), same fine ivory nonwoven fabric and narrow welded border as second reference. It may be rotated on table, but not square and not nine cells. Pad must fit within the pictured pouch, with pouch roughly 15 percent larger on each side. Also pull the camera back slightly so entire open lid at upper edge and entire foreground pad have at least 5 percent visible background margin, nothing cropped. Square photograph. No extra objects or text, no numerical dimensions printed.",
+    "referenceImages": [
+      "/Users/fares/.codex/generated_images/01a10fc3-fefd-7670-aec1-fd462302104e/exec-3a8767bb-db82-4db8-8da6-547f104e24c3.png",
+      "site-campaign/assets/patch-texture.webp"
+    ],
+    "method": "Built-in image_gen; visual proportions follow the provisional 95:130 product reference, not verified manufactured dimensions"
+  },
+  {
+    "name": "patch-placement-consistent",
+    "prompt": "Edit FIRST photo ONLY to correct the shape of the heat patch placed OVER the woman's opaque cream trousers. Everything else remains unchanged: person, hand, cream clothes, pose, room and light. Replace square nine-cell pad with the SAME clearly rectangular slim ivory nonwoven heat pad in references 2 and 3. Proportions width:height 95:130, about 9.5cm across by13cm tall, a palm-sized pad. Portrait orientation. Exactly THREE columns by FOUR rows of shallow quilted cells, twelve cells total, rounded corners, fine ivory fabric, slim welded border. All four edges over visible opaque trouser fabric, never on skin. Her hand may cover part of left column naturally. Match size relative to hand: pad's long edge is slightly shorter than full adult hand from wrist to fingertip. No enlarging to giant pad. Preserve original square image composition and photo quality, no text or other edits.",
+    "referenceImages": [
+      "site-campaign/assets/patch-placement.webp",
+      "site-campaign/assets/patch-texture.webp",
+      "site-campaign/assets/patch-peel.webp"
+    ],
+    "method": "Built-in image_gen; visual proportions follow the provisional 95:130 product reference, not verified manufactured dimensions"
+  },
+  {
+    "name": "sachet-opening-consistent",
+    "prompt": "Edit FIRST photograph to correct lavender sachet proportions. Preserve the distinctive square composition, cream linen surface, lavender background and two natural hands opening the top, separate scene from reference 2. Make held pouch a BROAD FLAT rectangular heat-pad envelope, width:height approximately 115:150, just wider than a 95x130mm patch. It must look like the broad soft foil pouch in reference 2, not a tall narrow powder packet. Keep entire pouch and hands visible; realistically reposition fingers only as needed to hold its wider body. Maintain the supplied exact dark-plum crescent above lowercase mauvelle wordmark centered on face, small '1 heat patch' below. Remove the small orange dot. The small ivory pad edge visible through opening should match a flat fabric pad. No extra text, no other scene changes, retain realistic matte foil texture, crimp edges, light and shadows. Square photograph with comfortable margins.",
+    "referenceImages": [
+      "site-campaign/assets/sachet-opening.webp",
+      "site-campaign/assets/opening-ritual-branded.webp",
+      "brand/logo/png/lockup-stacked-plum.png"
+    ],
+    "method": "Built-in image_gen; visual proportions follow the provisional 95:130 product reference, not verified manufactured dimensions"
+  },
+  {
+    "name": "opening-ritual-consistent",
+    "prompt": "Use case: precise-object-edit. Edit FIRST photograph for the Mauvelle website ritual slide. Preserve its warm cream linen, natural sunlight, woman's two hands and cream sleeves, realistic photography and LANDSCAPE 3:2 composition. Correct the pouch, which currently looks too small and square, and the implausible tiny torn strip. Replace it with the exact broad flat lavender foil HEAT PATCH envelope from reference 2: width:height about 115:150, large enough for the 95:130 rounded rectangular patch in reference 3, a little shorter than a full adult hand. Anatomically natural hands: left hand supports lower-left corner; right hand pulls the FULL-WIDTH tear-off top seam diagonally away to the upper right; show a believable continuous tear across the top of the envelope, thin silver foil lining and a small visible ivory flat textile patch edge inside. No tiny detached vertical strip. Maintain the crescent and lowercase 'mauvelle' logo faithfully as in references, plum ink centered, small exact text '1 heat patch' beneath. Matte lavender soft foil, neatly crimped perimeter, gentle realistic creases. Keep complete pouch centered in the middle 50 percent of this landscape frame so a mobile center crop retains the entire product and both hands' gripping fingers. This is a distinct warm bed-linen scene from reference2, not a duplicate. No extra text, no orange dot, no powder stick sachet, no giant envelope, no distortion or artificial-looking fingers.",
+    "referenceImages": [
+      "site-campaign/assets/opening-ritual-branded.webp",
+      "site-campaign/assets/sachet-opening-consistent.webp",
+      "site-campaign/assets/patch-texture.webp"
+    ],
+    "method": "Built-in image_gen; corrected concept proportions and tear seam"
+  }
+]
