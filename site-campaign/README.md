@@ -50,7 +50,7 @@ Optimized website files in `assets/`:
 - `patch-placement.webp`: patch over opaque clothing; placement ritual.
 - `morning-stretch.jpg`: sixth chapter.
 - `courtyard-walk.jpg`: editorial portrait.
-- `on-the-go.jpg`: editorial tote inset.
+- `on-the-go-branded.webp`: editorial tote inset.
 - `opening-ritual-branded.webp`: first ritual step.
 - `your-day.jpg`: final ritual step.
 - `vanity-still-life-branded.webp`: launch section.
@@ -76,3 +76,6 @@ built-in image tool to apply the supplied Mauvelle crescent and wordmark, plus
 matching product labels. Edit prompts and references are in
 `references/branding-edits.json`; full-resolution edits are preserved in
 `references/product-originals/`. Original scenes remain archived.
+
+The tote inset also uses the branded sachet edit. Its prompt and source references
+are recorded in `references/tote-branding-edit.json`.

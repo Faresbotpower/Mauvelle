@@ -1,0 +1,12 @@
+{
+  "name": "on-the-go-branded",
+  "prompt": "Edit ONLY the blank lavender sachet in the FIRST supplied photograph. Preserve the original portrait 2:3 framing, woman's hand and nails and ring, cream linen shirt, canvas tote, sunglasses, plum journal, lighting, background and all object positions. The second image is the exact Mauvelle crescent and lowercase wordmark artwork. The third image shows the established branded sachet design to match. Add this same small crescent above the lowercase 'mauvelle' wordmark, with small '1 heat patch' below, to the clear front of the lavender sachet going into the tote. Keep the logo prominently legible and centered on the unobstructed part of the pouch, below the fingers and above the journal. Dark plum #3E2A4F printing must follow the tilt, perspective, wrinkles and lighting of the sachet so it looks physically printed, never a flat overlay. Faithfully reproduce supplied logo, do not invent a new mark or font. Keep print inside the crimp seals. No other labels, no claims or durations, no changes to the rest of the scene. High quality photorealistic image edit.",
+  "referenceImages": [
+    "site-campaign/assets/on-the-go.jpg",
+    "brand/logo/png/lockup-stacked-plum.png",
+    "site-campaign/assets/opening-ritual-branded.webp"
+  ],
+  "original": "references/product-originals/on-the-go-branded.png",
+  "asset": "assets/on-the-go-branded.webp",
+  "method": "Built-in image_gen edit; photorealistic packaging concept"
+}
